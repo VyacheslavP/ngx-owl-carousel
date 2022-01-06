@@ -1,4 +1,4 @@
-# ngx-owl-carousel
+# ngx-owl-carousel-sl
 
 ## Dependencies
 
@@ -42,7 +42,7 @@ Add this to angular-cli.json file
 To install this library, run:
 
 ```bash
-$ npm install ngx-owl-carousel --save
+$ npm install ngx-owl-carousel-sl --save
 ```
 
 and then from your Angular `AppModule`:
@@ -54,7 +54,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { OwlModule } from 'ngx-owl-carousel';
+import { OwlModule } from 'ngx-owl-carousel-sl';
 
 @NgModule({
   declarations: [
@@ -143,7 +143,7 @@ This package is a wrapper for the jquery library owl.carousel. Jquery is not sup
 ```
 
 ```typescript
-import {OwlCarousel} from 'ngx-owl-carousel';
+import {OwlCarousel} from 'ngx-owl-carousel-sl';
 
 export class HomeComponent {
 @ViewChild('owlElement') owlElement: OwlCarousel
