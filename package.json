@@ -1,7 +1,7 @@
 {
   "name": "ngx-owl-carousel",
   "description": "An angular (2 or 4) wrapper for jquery owl carousel library with dynamic carousel item change detection",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint src/**/*.ts",
@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mujtaba01/ngx-owl-carousel"
+    "url": "https://github.com/VyacheslavP/ngx-owl-carousel.git"
   },
   "author": {
-    "name": "Mujtaba Hussain",
-    "email": "md.mujtaba@hotmail.com"
+    "name": "Viacheslav",
+    "email": "x.faraon@gmail.com"
   },
   "keywords": [
     "angular",
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mujtaba01/ngx-owl-carousel/issues"
+    "url": "https://github.com/VyacheslavP/ngx-owl-carousel/issues"
   },
   "main": "./index.js",
   "dependencies": {
