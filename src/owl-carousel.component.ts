@@ -44,7 +44,7 @@ export class OwlCarousel implements DoCheck {
   }
 
   reInit() {
-      if (this.$owlChild.$owl) {
+      if (this.$owlChild && this.$owlChild.$owl) {
           this.$owlChild.$owl.css('display', 'none');
       }
       setTimeout(() => {
